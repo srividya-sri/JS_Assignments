@@ -1,0 +1,28 @@
+<htm>
+    <hdead>
+        <h2>Get Current date</h2>
+    </head>
+    <body>
+        <script>
+            var d=new Date()
+            var dd=d.getDate()
+            var mm=d.getMonth()+1
+            var yyyy=d.getFullYear()
+            
+          if(dd<10)
+          {
+              dd='0'+dd
+          }
+          if(mm < 10)
+          {
+              mm='0'+mm
+          }
+
+            document.write("Current date :" +mm+"-"+dd+"-"+yyyy+"<br>")
+            document.write("Current date :" +mm+"/"+dd+"/"+yyyy+"<br>")
+            document.write("Current date :" +dd+"/"+mm+"/"+yyyy+"<br>")
+            document.write("Current date :" +dd+"-"+mm+"-"+yyyy)
+        </script>
+        
+    </body>
+</htm>
