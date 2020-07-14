@@ -1,0 +1,29 @@
+<html>
+    <head>
+     <h1>Display current date and time</h1>
+    </head>
+    <body>
+        <script>
+            var days=["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"]
+            var d=new Date()
+           var  day=d.getDay()
+           document.write("Today is :" +days[day],"<br>")
+           
+           var h=d.getHours()
+           var mint=d.getMinutes()
+           var sec=d.getSeconds()
+           var time=h>12?"PM":"AM"  
+           if(h>12)
+           {
+               h=h-12
+           
+               document.write("Current time is :"  +h+" "+time+":"+mint+":"+sec)
+           }
+           else{
+            document.write("Current time is :"  +h+" "+time+":"+mint+":"+sec)
+
+           }
+
+        </script>
+    </body>
+</html>
