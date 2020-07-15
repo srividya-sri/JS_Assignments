@@ -1,0 +1,9 @@
+//write brief intro on available datatypes
+
+Below are the datatypes in JS
+1.Number - represents integer and float values
+2.String - represents string values 
+3.Boolean - represents true or false values
+4.Null   - represent null values
+5.Undefined - get undefined values when  value not assgined to the variable
+6.Objects - represents arrays, objects

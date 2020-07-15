@@ -1,0 +1,8 @@
+/*Explore and explain the method in console function
+
+console.log()  ---- for printing the message to the console
+console.dir() ----- to see the properties of js objects in console
+console.clear() ---- clears the content on the console
+console.error() --- to write the error message to the console
+
+*/
